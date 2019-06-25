@@ -13,6 +13,8 @@
 		7EF8742522C1F7FF000995E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8742422C1F7FF000995E5 /* Assets.xcassets */; };
 		7EF8742822C1F7FF000995E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8742622C1F7FF000995E5 /* LaunchScreen.storyboard */; };
 		7EF8742B22C1F7FF000995E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8742A22C1F7FF000995E5 /* main.m */; };
+		7EF8743622C1F9CD000995E5 /* PDF使用指南.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8743522C1F9CD000995E5 /* PDF使用指南.pdf */; };
+		7EF8743822C1FA47000995E5 /* start_2_1_1_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8743722C1FA47000995E5 /* start_2_1_1_A.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7EF8742722C1F7FF000995E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF8742922C1F7FF000995E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF8742A22C1F7FF000995E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EF8743522C1F9CD000995E5 /* PDF使用指南.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PDF使用指南.pdf"; sourceTree = "<group>"; };
+		7EF8743722C1FA47000995E5 /* start_2_1_1_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_2_1_1_A.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		7EF8740F22C1F7FB000995E5 = {
 			isa = PBXGroup;
 			children = (
+				7EF8743422C1F9AE000995E5 /* source */,
 				7EF8741A22C1F7FB000995E5 /* PrintInteractionDemo */,
 				7EF8741922C1F7FB000995E5 /* Products */,
 			);
@@ -69,6 +74,16 @@
 				7EF8742A22C1F7FF000995E5 /* main.m */,
 			);
 			path = PrintInteractionDemo;
+			sourceTree = "<group>";
+		};
+		7EF8743422C1F9AE000995E5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				7EF8743722C1FA47000995E5 /* start_2_1_1_A.png */,
+				7EF8743522C1F9CD000995E5 /* PDF使用指南.pdf */,
+			);
+			name = source;
+			path = PrintInteractionDemo/source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EF8742822C1F7FF000995E5 /* LaunchScreen.storyboard in Resources */,
+				7EF8743822C1FA47000995E5 /* start_2_1_1_A.png in Resources */,
 				7EF8742522C1F7FF000995E5 /* Assets.xcassets in Resources */,
+				7EF8743622C1F9CD000995E5 /* PDF使用指南.pdf in Resources */,
 				7EF8742322C1F7FB000995E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PrintInteractionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PrintInteractionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
